@@ -9,4 +9,24 @@
 <body>
 <div id="root">
 </div>
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <script type="text/babel">
+    const root = ReactDom.createRoot(document.getElementById("root"))
+
+    function ans(){
+      return(
+        <div>
+          <h1>Welcome to my website</h1>
+          <p>This is the content of my website.</p>
+          <footer>
+            <p>©️ 2023 My Website.All rights reserved.</p>
+          </footer>
+      )
+    }
+  </script>
 </html>
